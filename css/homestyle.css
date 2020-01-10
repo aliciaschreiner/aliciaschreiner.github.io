@@ -25,10 +25,12 @@ h1 {
 h2 {
   font-weight: lighter;
   color: cadetblue;
+  margin-bottom: -5px;
 }
 
 ul {
   color: rgb(82, 94, 94);
+  line-height: 1.5em;
 }
 
 header img {
