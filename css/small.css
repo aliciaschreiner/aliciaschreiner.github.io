@@ -10,14 +10,15 @@ header {
   background-color: darkslategrey;
   color: white;
   padding: 12px;
-  border-radius: 8px;
-  text-align: center;
+
 }
 
 h1 {
+  font-size: 1.1rem;
   font-weight: lighter;
   text-transform: uppercase;
   letter-spacing: 0.2em;
+  text-align: center;
 }
 
 h2 {
@@ -32,11 +33,10 @@ ul {
 }
 
 header img {
-  float: right;
-  margin-top: -80px;
-  padding-right: 10px;
   border-radius: 50%;
   height: 155px;
+  display: block;
+  margin: 0 auto;
 }
 
 main {
@@ -54,8 +54,8 @@ footer {
   margin-top: 30px;
   padding-top: 15px;
   padding-bottom: 8px;
-  border-radius: 8px;
   word-spacing: 0.25em;
+
 }
 
 #byuilink {
