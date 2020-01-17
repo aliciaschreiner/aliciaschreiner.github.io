@@ -1,50 +1,47 @@
-@media only screen and (min-width: 32.5em){
+@media only screen and (min-width: 32.5em) {
+  body {
+    margin: 1.5em 3em;
+  }
 
-    body {
-        margin: 1.5em 3em;
-    }
+  header {
+    margin-bottom: 1em;
+    font-size: 2em;
+    margin-top: 1em;
+  }
 
-    header {
-        margin-bottom: 1em;
-        font-size: 2em;
-        margin-top: 1em;
-    }
-    
-  
-   
-    main {
-        grid-template-columns: 1fr 1fr;
-        margin-bottom: 1em;
-    }
-    
-    main p {
-        font-size: 1em;
-    }
-    
-    main a:link {
-        margin: 1em;
-        font-size: 1.1em;
-    }
+  main {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1em;
+  }
 
-h1 {
+  main p {
+    font-size: 1em;
+  }
+
+  main a:link {
+    margin: 1em;
+    font-size: 1.1em;
+  }
+
+  h1 {
     font-size: 1.7rem;
-}
-    h2 {
-        font-size: 1.7em;
-    }
-    
-    h3 {
-        font-size: 1.2em;
-    }
-section {
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+  section {
     padding-left: 30px;
     padding-right: 30px;
-}
-img {
+  }
+  img {
     width: 275px;
-}
+  }
 
-    footer {
-        font-size: 1em;
-    }
+  footer {
+    font-size: 1em;
+  }
 }
