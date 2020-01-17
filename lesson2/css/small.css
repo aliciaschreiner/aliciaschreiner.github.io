@@ -37,21 +37,21 @@ main {
   grid-template-columns: 1fr;
 }
 
-main section {
+section {
   text-align: center;
 }
 section:nth-child(3) {
   grid-column: span 1;
 }
-main p {
+p {
   text-align: left;
 }
 
-main a {
+a {
   color: white;
 }
 
-main a:link {
+a:link {
   border: 1px solid;
   border-color: rgb(240, 155, 155);
   background-color: rgb(240, 155, 155);
