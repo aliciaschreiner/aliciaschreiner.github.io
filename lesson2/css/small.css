@@ -1,68 +1,80 @@
 body {
-    font-family: "Roboto", sans-serif;
-    max-width: 720px;
-    margin: auto;
-    display: block;
-    letter-spacing: .04em;
-  }
-  
-  header {
-    background-color: darkslategrey;
-    color: white;
-    padding: 12px;
-  
-  }
-  
-  h1 {
-    font-size: 1.1rem;
-    font-weight: lighter;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    text-align: center;
-  }
-  
-  h2, h3 {
-    font-weight: lighter;
-    color: cadetblue;
-    margin-bottom: -5px;
-    text-align: center;
-  }
-
-  main {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  main section {
-      text-align: center;
-  }
-section:nth-child(3) {
-    grid-column: span 1;
+  font-family: "Roboto", sans-serif;
+  max-width: 720px;
+  margin: auto;
+  display: block;
+  letter-spacing: 0.04em;
 }
-  main a {
 
-  }
-  
-  a {
-    color: rgb(240, 155, 155);
-  }
-  footer {
-    background-color: darkslategrey;
-    color: white;
-    text-align: center;
-    font-size: small;
-    margin-top: 30px;
-    padding-top: 15px;
-    padding-bottom: 8px;
-    word-spacing: 0.25em;
-  
-  }
-  
-  #byuilink {
-    color: white;
-  }
-  
-  #lastmod {
-    font-size: 0.75em;
-  }
-  
+header {
+  background-color: darkslategrey;
+  color: white;
+  padding: 12px;
+}
+
+h1 {
+  font-size: 1.1rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+h2 {
+  font-weight: lighter;
+  color: cadetblue;
+  margin-bottom: -5px;
+  text-align: center;
+}
+
+h3 {
+  font-weight: lighter;
+  color: slategrey;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+main section {
+  text-align: center;
+}
+section:nth-child(3) {
+  grid-column: span 1;
+}
+main p {
+  text-align: left;
+}
+
+main a {
+  color: white;
+}
+
+main a:link {
+  border: 1px solid;
+  border-color: rgb(240, 155, 155);
+  background-color: rgb(240, 155, 155);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer {
+  background-color: darkslategrey;
+  color: white;
+  text-align: center;
+  font-size: small;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  word-spacing: 0.25em;
+}
+
+#byuilink {
+  color: white;
+}
+
+#lastmod {
+  font-size: 0.75em;
+}
