@@ -1,6 +1,6 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -8,14 +8,11 @@ header {
   color: white;
   margin: 10px;
 }
-.yellowbanner {
-    background-color: rgb(249, 237, 50);
-    padding: 5px;
-}
+
 nav {
-  background-color: rgb(0, 174, 239);
+  background-color: #013056;
   text-align: center;
-  padding: 12px;
+  padding: 2px;
 }
 
 nav ul {
@@ -23,7 +20,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  padding: 5px;
+  padding: 3px;
 }
 nav li a {
   display: block;
@@ -36,9 +33,9 @@ nav li a {
   padding: 16px;
 }
 nav a:hover {
-  color: #21409a;
-  border-bottom: 2px solid rgb(249, 237, 50);
-  border-top: 2px solid rgb(249, 237, 50);
+  color: #008ee5;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
 }
 main {
   max-width: 800px;
@@ -46,32 +43,36 @@ main {
   padding: 10px;
 }
 
-main p {
-  line-height: 1.2em;
-  word-spacing: 0.1em;
-  font-size: 1em;
+main p, main li {
+  line-height: 1.1em;
 }
+
 h1 {
   font-weight: bold;
   text-transform: uppercase;
-  color: #21409a;
+  color: #015aa3;
   font-size: 1.6em;
 }
 
 h2 {
-  color: #21409a;
+  color: #007ee5;
   font-size: 1.3em;
 }
 
 h3 {
-  color: #21409a;
+    color: #015aa3;
   font-size: 1.1em;
 }
 
-img {
-  width: 200px;
+img.domain, img.colorscheme {
+  width: 450px;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: center;
+}
+
+img.logo, img.headerlogo {
+    width: 250px;
 }
 
 img.align-center {
@@ -80,7 +81,7 @@ img.align-center {
 }
 
 footer {
-  background-color: rgb(0, 174, 239);
+  background-color: #013056;
   color: white;
   text-align: center;
   font-size: small;

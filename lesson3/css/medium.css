@@ -2,19 +2,23 @@
     body {
       margin: 1.5em 3em;
     }
+    nav {
+        padding: 12px;
+    }
     nav ul { 
         display: flex;
         grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        padding: 5px;
     }
     main {
       grid-template-columns: 1fr 1fr;
       margin-bottom: 1em;
     }
   
-    main p {
+    main p, main li{
       font-size: 1.2em;
+      line-height: 1.1em;
     }
-  
     main a:link {
       margin: 1em;
       font-size: 1.1em;
@@ -30,16 +34,17 @@
     h3 {
       font-size: 1.2em;
     }
-    section {
       padding-left: 30px;
       padding-right: 30px;
     }
-    img {
-      width: 275px;
+    img.domain, img.colorscheme {
+      width: 600px;
     }
 
+    img.logo, img.headerlogo {
+        width: 250px;
+    }
 
-  
     footer {
       font-size: 1em;
     }

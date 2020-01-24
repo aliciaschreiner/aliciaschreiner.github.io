@@ -3,8 +3,8 @@
     main {
       grid-template-columns: 1fr 1fr 1fr;
     }
-    img {
-      width: 300px;
+    img.domain, img.colorscheme {
+      width: 766px;
     }
   }
   
