@@ -1,0 +1,99 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  max-width: 800px;
+  margin: auto;
+}
+
+header {
+  color: white;
+  margin: 10px;
+}
+.yellowbanner {
+    background-color: rgb(249, 237, 50);
+    padding: 5px;
+}
+nav {
+  background-color: rgb(0, 174, 239);
+  text-align: center;
+  padding: 12px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding: 5px;
+}
+nav li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.75rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 16px;
+}
+nav a:hover {
+  color: #21409a;
+  border-bottom: 2px solid rgb(249, 237, 50);
+  border-top: 2px solid rgb(249, 237, 50);
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+main p {
+  line-height: 1.2em;
+  word-spacing: 0.1em;
+  font-size: 1em;
+}
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #21409a;
+  font-size: 1.6em;
+}
+
+h2 {
+  color: #21409a;
+  font-size: 1.3em;
+}
+
+h3 {
+  color: #21409a;
+  font-size: 1.1em;
+}
+
+img {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+img.align-center {
+  display: block;
+  margin: 0px auto;
+}
+
+footer {
+  background-color: rgb(0, 174, 239);
+  color: white;
+  text-align: center;
+  font-size: small;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  word-spacing: 0.25em;
+}
+
+#byuilink {
+  color: white;
+}
+
+#lastmod {
+  font-size: 0.75em;
+}
