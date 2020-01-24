@@ -75,11 +75,6 @@ img.logo, img.headerlogo {
     width: 250px;
 }
 
-img.align-center {
-  display: block;
-  margin: 0px auto;
-}
-
 footer {
   background-color: #013056;
   color: white;
