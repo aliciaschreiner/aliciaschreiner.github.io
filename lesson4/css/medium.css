@@ -1,0 +1,37 @@
+@media only screen and (min-width: 37.5em) {
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: white;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+    }
+    
+    .weather-summary {
+        background-color: black;
+        opacity: 0.8;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-content: flex-start;
+      }
+      .articleimage {
+       display: flex;
+    }
+
+.article p {
+    width: 500px;
+}
+
+
+}
