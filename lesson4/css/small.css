@@ -44,7 +44,7 @@ header {
   display: none;
   text-align: left;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: white;
   font-weight: 900;
 }
@@ -57,7 +57,6 @@ header {
   display: block;
   color: #fff;
   padding: 0.75rem;
-  text-align: left;
   text-decoration: none;
 }
 .navigation a:hover {
@@ -178,7 +177,6 @@ article {
 
 .articlebox {
   position: relative;
-
 }
 article h2 {
   text-align: left;
@@ -196,8 +194,7 @@ article h2 {
   margin-right: -10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  display: flex;
-  flex-wrap: wrap;
+  grid-gap: 1rem;
 }
 .prestonmap {
   margin: auto;
