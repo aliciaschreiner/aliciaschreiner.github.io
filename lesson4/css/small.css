@@ -3,12 +3,33 @@ body {
   max-width: 1200px;
   margin: auto;
 }
+/* Header*/
 
 header {
   color: white;
-  margin: 10px;
-  display: ;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.head {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerlogo {
+  max-width: 150px;
+  padding-right: 20px;
+  padding-left: -20px;
+  margin-right: 20px;
+}
+
+.slogan {
+  text-align: center;
+  margin-top: -1.5rem;
+}
+
+/* Navigation */
 
 .navigation {
   list-style: none;
@@ -21,12 +42,11 @@ header {
 
 .nav li a {
   display: none;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   font-size: 1.5rem;
   color: white;
   font-weight: 900;
-  padding: 12px;
 }
 
 .navigation li:first-child {
@@ -49,28 +69,32 @@ header {
 .responsive li {
   display: block;
 }
-
+/* Main */
 main {
   max-width: 800px;
   margin: 0 auto;
   padding: 10px;
 }
-
+main h2 {
+  margin-top: -5px;
+}
 main p,
 main li {
   line-height: 1.1em;
 }
-
+.author {
+  font-size: 14px;
+}
 h1 {
   font-weight: bold;
   color: #015aa3;
-  font-size: 3.6em;
   text-align: center;
+  font-size: 2.5rem;
 }
 
 h2 {
   color: #015aa3;
-  font-size: 2.2em;
+  font-size: 2em;
   text-align: center;
 }
 
@@ -113,11 +137,6 @@ img.colorscheme {
   text-align: center;
 }
 
-img.logo,
-img.headerlogo {
-  width: 250px;
-}
-
 .prestonhero {
   max-width: 100%;
 }
@@ -130,6 +149,7 @@ img.headerlogo {
   padding-bottom: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  display: none;
 }
 
 .forecastcontainer h3 {
@@ -137,37 +157,52 @@ img.headerlogo {
 }
 
 .forecasttable {
-    border: 1px solid darkgray;
-    background-color: white;
-    color: black;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  border: 1px solid darkgray;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
+article {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 auto;
+}
 .articleimage {
- display: block;
-margin-left: auto;
- margin-right: auto;
- max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }
 
-.article h2 {
-    text-align: left;
-}
+.articlebox {
+  position: relative;
 
-.article {
- position: relative;
 }
-
+article h2 {
+  text-align: left;
+  padding-top: 40px;
+}
 .contactcontainer {
-    background-color: lightgray;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    margin-top: 70px;
-    margin-bottom: 10px;
+  background-color: lightgray;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: -40px;
+  margin-left: -10px;
+  margin-right: -10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+}
+.prestonmap {
+  margin: auto;
+  max-width: 100%;
+  grid-column: span 2;
 }
 footer {
   background-color: #013056;
