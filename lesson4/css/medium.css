@@ -100,8 +100,13 @@
     grid-column: 2;
     grid-row: 2;
   }
+
+  .dayweather {
+    width: 15px;
+  }
   .prestonmap {
     grid-column: 1;
     grid-row: 1/3;
+    display: block;
   }
 }

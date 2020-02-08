@@ -4,9 +4,9 @@ var day = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday
 var fdate = day[now.getDay()]+", " + month[now.getMonth()] +" "+ now.getDate() + ", " + now.getFullYear();
 document.getElementById("currentdate").innerHTML=fdate;
 
-const hambutton = document.querySelector(".ham");
+const hambutton = document.getElementsByClassName('hamburger')[0];
 hambutton.addEventListener("click", toggleMenu, false);
 
 function toggleMenu() {
-document.querySelector(".navigation").classList.toggle("responsive");
-}
+	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+};

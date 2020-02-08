@@ -32,8 +32,8 @@
     <nav>
       <ul class="navigation">
         <li><a class="ham" href="#">&#9776; Menu</a></li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="preston-5.html">Preston</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a class="active" href="#">Preston</a></li>
         <li><a href="#">Soda Springs</a></li>
         <li><a href="#">Fish Haven</a></li>
         <li><a href="#">Storm Center</a></li>
@@ -61,19 +61,19 @@
       <div class="forecastcontainer">
         <h3>5 Day Forecast</h3>
         <table class="forecasttable" style="width:100%">
-          <tr>
+          <tr class="day">
             <th>Sunday</th>
             <th>Monday</th>
             <th>Tuesday</th>
             <th>Wednesday</th>
             <th>Thursday</th>
           </tr>
-          <tr>
-            <td>lorem</td>
-            <td>lorem</td>
-            <td>lorem</td>
-            <td>lorem</td>
-            <td>lorem</td>
+          <tr class="dayweather">
+            <td><img src="images/wi-day-sunny.svg">65&#8457;</td>
+            <td><img src="images/wi-day-sunny.svg">62&#8457;</td>
+            <td><img src="images/wi-day-cloudy.svg">59&#8457;</td>
+            <td><img src="images/wi-cloudy.svg">57&#8457;</td>
+            <td><img src="images/wi-day-rain.svg">52&#8457;</td>
           </tr>
         </table>
       </div>
@@ -105,13 +105,16 @@
       </div>
       <div class="contactcontainer">
         <p class="contact1">
-          Contact Information Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Neque, tenetur voluptatibus iusto quia saepe blanditiis corporis
-          voluptatum repudiandae laudantium error id delectus recusandae! Sint?
+          <h3>Weatherday</h3>
+        <p>1234 Preston Ave</p>
+        <p>Preston, ID 83263</p>
+        
+        <p>&phone; 208-223-4567</p>
         </p>
         <p class="contact2">
-          Lorem ipsum dolor, alias cupiditate. Commodi alias, dolorum
-          praesentium iure saepe fugiat? Ab, molestiae cumque.
+        <a href="#" class="iconlink"> <img class="icon" src="images/facebook_icon.png"></a>
+        <a href="#" class="iconlink"> <img class="icon" src="images/twitter_icon.png"></a>
+        <a href="#" class="iconlink"> <img class="icon" src="images/youtube_icon.png"></a>
         </p>
         <img
           src="images/prestonmap.jpg"
