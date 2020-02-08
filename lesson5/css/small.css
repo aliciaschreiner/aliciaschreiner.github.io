@@ -30,7 +30,7 @@ header {
 
 /* Navigation */
 
-.navigation {
+nav ul {
   list-style: none;
   background-color: #013056;
   text-align: center;
@@ -38,14 +38,16 @@ header {
   margin: 0 auto;
   max-width: 1200px;
 }
-
-.nav li a {
+nav li {
+  display: none;
+  flex: 1 1 100%;
+}
+nav li a {
   display: none;
   text-align: left;
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   color: white;
-  font-weight: 900;
 }
 
 .navigation li:first-child {
@@ -67,9 +69,14 @@ header {
 .responsive li {
   display: block;
 }
+
+.active {
+  font-weight: bold;
+  color: #008ee5;
+}
 /* Main */
 main {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 10px;
 }
@@ -195,10 +202,17 @@ article h2 {
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
 }
+
+.icon {
+  max-width: 10%;
+  border-radius: 10%;
+}
+
 .prestonmap {
   margin: auto;
   max-width: 100%;
   grid-column: span 2;
+  display: none;
 }
 footer {
   background-color: #013056;
