@@ -89,7 +89,6 @@ nav li a {
 }
 
 .active {
-  font-weight: bold;
   color: #008ee5;
 }
 /* Main */
@@ -210,7 +209,7 @@ img.colorscheme {
   background-color: lightgray;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -232,6 +231,7 @@ img.colorscheme {
 .day {
   font-size: 1.2em;
   color: #015aa3;
+  padding-top: 10px;
 }
 .dayweather img {
   max-width: 70px;
@@ -240,6 +240,7 @@ img.colorscheme {
 }
 .dayweather p {
   color: #008ee5;
+  font-size: large;
 }
 
 article {
