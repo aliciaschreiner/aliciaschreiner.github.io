@@ -286,9 +286,17 @@ article p {
   grid-column: 2;
   grid-row: 1;
 }
+.contact1 h3 {
+  text-align: left;
+}
+.contact1 p {
+  line-height: .5em;
+}
 .contact2 {
   grid-column: 2;
   grid-row: 2;
+  margin-top: 80px;
+  align-content: center;
 }
 .icon {
   max-width: 10%;
