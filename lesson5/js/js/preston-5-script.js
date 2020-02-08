@@ -10,3 +10,10 @@ hambutton.addEventListener("click", toggleMenu, false);
 function toggleMenu() {
 	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 };
+
+var day = new Date();
+var today = day.getDay();
+
+if(today == 5) {
+	document.getElementById("popup").className = "show";
+}
