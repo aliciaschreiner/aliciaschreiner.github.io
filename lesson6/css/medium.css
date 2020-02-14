@@ -25,6 +25,17 @@
     display: none;
   }
 
+ .container {
+    position: relative;
+}
+
+.container img {
+    margin: auto;
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+
+
   .weather-summary {
     background-color: black;
     opacity: 0.8;

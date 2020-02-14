@@ -20,7 +20,7 @@
   <body>
 
     <section id="popup" class="hide">
-      <p><strong>Saturday</strong>: Preston Pancakes in the Park! <strong>9:00 a.m. Saturday</strong> at the City Park Pavilion.</p>
+      <p><strong>Saturday:</strong> Preston Pancakes in the Park! <br>9:00 a.m. Saturday at the City Park Pavilion.</p>
   </section>
     <header>
       <img
@@ -48,12 +48,12 @@
       <br/>
       <h2>Preston Idaho</h2>
       <div class="container">
-        <img
-          src="/lesson5/images/preston2.jpg"
-          alt="Mountain Lake Image"
-          class="prestonhero"
-        />
-        <div class="weather-summary">
+       <picture>
+         <source media=" (max-width: 500px)" srcset="images/prestonHero01.jpg">
+          <source media=" (max-width: 700px)" srcset="images/prestonHero02.jpg">
+            <img src="images/prestonHero03.jpg" alt="Preston Hero Image">
+            </picture>
+                  <div class="weather-summary">
           <h4>Weather Summary</h4>
           <p>Currently:</p><span id="current"> Partly Cloudy</span>
           <p>Temperature:</p><span id="temp">59&#8457;</span>

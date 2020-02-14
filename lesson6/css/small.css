@@ -1,14 +1,14 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
-  max-width: 1200px;
+
   margin: auto;
 }
 
 #popup {
-  background-color: #ffffcc;
+  background-color: #ff0;
   color: #013056;
   margin: 0;
-  padding: 0.5rem;
+  padding: 0.25rem;
   text-align: center;
   font-size: 1.2rem;
   line-height: 1.4em;
@@ -29,6 +29,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -20px;
+  margin-bottom: -10px;
+
 }
 .head {
   display: flex;
@@ -54,7 +57,6 @@ nav ul {
   text-align: center;
   padding: 2px;
   margin: 0 auto;
-  max-width: 1200px;
 }
 nav li {
   display: none;
@@ -92,8 +94,20 @@ nav li a {
   color: #008ee5;
 }
 /* Main */
+
+.container {
+  position: relative;
+  margin-bottom: 0.4em;
+}
+
+.container img{
+  margin: auto;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
 main {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 10px;
 }
