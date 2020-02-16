@@ -90,8 +90,10 @@ nav li a {
   display: block;
 }
 
-.active {
+.navigation .active {
   color: #008ee5;
+  font-weight: bolder;
+
 }
 /* Main */
 
@@ -170,6 +172,7 @@ h4 {
 .weather-summary h4 {
   grid-row: 1;
   grid-column: 1/3;
+  font-size: 1.25rem;
 }
 .weather-summary span {
   text-align:right;
