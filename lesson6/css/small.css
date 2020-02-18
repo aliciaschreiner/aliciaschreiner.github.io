@@ -223,7 +223,7 @@ img.colorscheme {
 }
 
 .forecastcontainer {
-  background-color: lightgray;
+  background-color: #f0f0f0;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -238,7 +238,7 @@ img.colorscheme {
 }
 
 .forecasttable {
-  border: 1px solid darkgray;
+  border: 1px solid #f0f0f0;
   background-color: white;
   text-align: center;
   padding-top: 15px;
@@ -286,7 +286,7 @@ article p {
   margin-left: 10px;;
 }
 .contactcontainer {
-  background-color: lightgray;
+  background-color: #f0f0f0;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 15px;
