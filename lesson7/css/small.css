@@ -350,7 +350,7 @@ main img[data-src] {
 .weatherGallery img {
   max-width: 100%;
 }
-.shadow p {
+.box p {
   text-align: center;
   font-size: 1.25em;
 }
