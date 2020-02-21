@@ -2,7 +2,6 @@
   .weatherday {
     font-size: 70px;
   }
-
   .slogan {
     font-size: 25px;
   }
@@ -21,11 +20,9 @@
     color: white;
     font-size: 1.5rem;
   }
-
   .navigation li:first-child {
     display: none;
   }
-
   .weather-summary {
     background-color: black;
     opacity: 0.8;
@@ -37,13 +34,13 @@
     align-content: flex-start;
   }
 }
+
 /* Grid Gallery */
 
 .weatherGallery {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 50px;
 }
-
 .shadow:hover {
   box-shadow: 0 0 30px #333;
 }
