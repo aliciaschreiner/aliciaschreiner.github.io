@@ -25,16 +25,15 @@
     display: none;
   }
 
- .container {
+  .container {
     position: relative;
-}
+  }
 
-.container img {
+  .container img {
     margin: auto;
     max-width: 100%;
     margin-bottom: 2rem;
-}
-
+  }
 
   .weather-summary {
     background-color: black;
@@ -125,5 +124,5 @@
 .weatherGallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 25px;
 }
