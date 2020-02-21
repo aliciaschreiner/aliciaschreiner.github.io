@@ -37,3 +37,11 @@
     align-content: flex-start;
   }
 }
+/* Grid Gallery */
+
+.weatherGallery {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.shadow:hover {box-shadow: 0 0 30px #333;}
+

@@ -327,6 +327,41 @@ article p {
   grid-column: span 2;
   display: none;
 }
+/* Lazy Load */
+picture {
+  display: block;
+  margin: 1rem;
+}
+
+main img {
+  min-width: 300px;
+  min-height: 400px;
+  filter: blur(0em);
+  transition: filter 0.5s;
+
+}
+
+main img[data-src] {
+  filter: blur(0.2em);
+}
+/* Gallery Grid */
+
+.weatherGallery {
+align-content: center;
+margin: 0;
+display: flex;
+flex-direction: column;
+}
+
+.weatherGallery img {
+  max-width: 100%;
+}
+.weather-caption {
+  text-align: center;
+  font-size: 1.25em;
+}
+
+
 footer {
   background-color: #013056;
   color: white;

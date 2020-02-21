@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weatherday - CIT 230 Weather Site</title>
+    <meta name="author" content="Alicia Schreiner" />
+    <meta name="description" content="CIT 230 Assignment 07" />
+
+    <link rel="stylesheet" href="/lesson7/css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="/lesson7/css/small.css" />
+    <link rel="stylesheet" type="text/css" href="/lesson7/css/medium.css" />
+    <link rel="stylesheet" type="text/css" href="/lesson7/css/large.css" />
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body>
+
+    <section id="popup" class="hide">
+      <p><strong>Saturday:</strong> Preston Pancakes in the Park! <br>9:00 a.m. Saturday at the City Park Pavilion.</p>
+  </section>
+    <header>
+      <img
+        src="images/weatherday.png"
+        alt="Weatherday logo image"
+        class="headerlogo"
+      />
+      <section class="head">
+        <h1 class="weatherday">Weatherday</h1>
+        <h3 class="slogan">Be Prepared, Rain or Shine.</h3>
+      </section>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a class="hamburger" href="#">&#9776; Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a class="active" href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <br/>
+      <h2>Weather Gallery</h2>
+      <section class="weatherGallery">
+      <picture class="shadow">
+        <img src="images/placeholder.jpg" data-src="images/cloudy.jpg" alt="Cloudy Image">
+        <p class="weather-caption">A Cloudy Day</p></picture>
+        <picture class="shadow">
+            <img src="images/placeholder.jpg" data-src="images/foggy.jpg" alt="Foggy Image">
+        <p class="weather-caption">Fog Rolling In</p></picture>
+        <picture class="shadow">
+            <img src="images/placeholder.jpg" data-src="images/lightning.jpg" alt="lightning Image">
+        <p class="weather-caption">Lightning Strikes</p></picture>
+        <picture class="shadow">
+            <img src="images/placeholder.jpg" data-src="images/rainy.jpg" alt="Rainy Image">
+        <p class="weather-caption">Rain in the Mountains</p></picture>
+        <picture class="shadow">
+            <img src="images/placeholder.jpg" data-src="images/snowy.jpg" alt="Snowy Image">
+        <p class="weather-caption">Fresh Snow</p></picture>
+        <picture class="shadow">
+            <img src="images/placeholder.jpg" data-src="images/sunny.jpg" alt="Sunny Image">
+        <p class="weather-caption">Bright Day</p></picture>
+        <picture class="shadow">
+            <img src="images/placeholder.jpg" data-src="images/hurricane.jpg" alt="Hurricane Image">
+        <p class="weather-caption">Hurricane on its Way</p></picture>
+        <picture class="shadow">
+            <img src="images/placeholder.jpg" data-src="images/wildfire.jpg" alt="Wildfire Image">
+        <p class="weather-caption">Wildfire in the Mountains</p></picture>
+        <picture class="shadow">
+            <img src="images/placeholder.jpg" data-src="images/tornado.jpg" alt="Tornado Image">
+        <p class="weather-caption">Tornado Alert</p></picture>
+    </section>
+    </main>
+    <footer>
+      <span>&copy; </span>
+      <span> Weatherday | Attribution | Alicia Schreiner</span>
+      <br />
+      <span id="currentdate"></span>
+    </footer>
+
+    <script src="/lesson6/js/preston-6-script.js"></script>
+<script src="/lesson7/js/lazyload.js"></script>
+  </body>
+</html>

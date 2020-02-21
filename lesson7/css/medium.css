@@ -121,3 +121,9 @@
     grid-row: 1/4;
   }
 }
+/* Grid Gallery */
+.weatherGallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
