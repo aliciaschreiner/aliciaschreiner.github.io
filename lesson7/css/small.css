@@ -342,7 +342,7 @@ main img[data-src] {
 /* Gallery */
 
 .weatherGallery {
-  margin: 0;
+  margin: auto;
   display: flex;
   flex-direction: column;
 }
