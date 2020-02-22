@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 32.5em) {
   .weatherday {
     font-size: 50px;
   }
@@ -117,7 +117,7 @@
     grid-column: 1;
     grid-row: 1/4;
   }
-}
+
 
 /* Grid Gallery */
 
@@ -125,4 +125,5 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 25px;
+}
 }

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 64em) {
   .weatherday {
     font-size: 70px;
   }
@@ -33,14 +33,18 @@
     padding-right: 20px;
     align-content: flex-start;
   }
+
+main {
+  max-width: 1260px;
 }
 
 /* Grid Gallery */
 
 .weatherGallery {
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 50px;
+  grid-gap: 25px;
 }
 .box:hover {
   box-shadow: 0 0 30px #333;
+}
 }

@@ -1,6 +1,5 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
-
   margin: auto;
 }
 
@@ -107,8 +106,8 @@ nav li a {
 }
 
 main {
-  max-width: 900px;
-  margin: 0 auto;
+  max-width: 960px;
+  margin: auto;
   padding: 10px;
 }
 main h2 {
@@ -342,13 +341,20 @@ main img[data-src] {
 /* Gallery */
 
 .weatherGallery {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .weatherGallery img {
-  max-width: 100%;
+  min-width: 300px;
+}
+
+.box {
+  max-width: 300px;
 }
 .box p {
   text-align: center;
