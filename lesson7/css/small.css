@@ -338,15 +338,17 @@ main img[data-src] {
   filter: blur(0.2em);
 }
 
+
 /* Gallery */
 
+main h2 {
+  padding: 15px;
+}
 .weatherGallery {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  
+  justify-items: center;
 }
 
 .weatherGallery img {
