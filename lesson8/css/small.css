@@ -396,6 +396,7 @@ input {
   padding: 10px;
   display: block;
   width: 100%;
+  margin-top: 10px;
 }
 
 label {
@@ -406,7 +407,7 @@ label {
 #stormRegion {
   display: block;
 }
-.submitButton {
+.submitButton, .thanks button{
   border: none;
   background-color: #008ee5;
   color: white;
@@ -429,6 +430,11 @@ textarea {
   display: block;
   width: 100%;
 }
+
+/* Thank You */
+
+
+
 /* Footer */
 
 footer {
