@@ -22,14 +22,25 @@ td {
 th {
   color: white;
 }
-table tr:nth-child(even) {
+table tr:nth-child(2) {
+    background-color: #e7ffed;
+  }
+table tr:nth-child(4) {
   background-color: #e7ffed;
 }
+table tr:nth-child(6) {
+    background-color: #e7ffed;
+  }
 
-table tr:nth-child(odd) {
+table tr:nth-child(1) {
   background-color: #e7f0ed;
 }
-
+table tr:nth-child(3) {
+    background-color: #e7f0ed;
+  }
+  table tr:nth-child(5) {
+    background-color: #e7f0ed;
+  }
 .darkbox {
   background-color: #628ca6;
   color: white;
