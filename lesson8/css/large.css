@@ -1,0 +1,57 @@
+@media only screen and (min-width: 64em) {
+    .weatherday {
+      font-size: 70px;
+    }
+    .slogan {
+      font-size: 25px;
+    }
+    .headerlogo {
+      max-width: 220px;
+    }
+    .navigation {
+      display: flex;
+      padding: 15px;
+    }
+    .navigation li {
+      display: block;
+      flex: 1 1 100%;
+    }
+    .navigation li a {
+      color: white;
+      font-size: 1.5rem;
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+    .weather-summary {
+      background-color: black;
+      opacity: 0.8;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      align-content: flex-start;
+    }
+  
+  main {
+    max-width: 1260px;
+  }
+  
+  /* Grid Gallery */
+  
+  .weatherGallery {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+  }
+  .box:hover {
+    box-shadow: 0 0 30px #333;
+  }
+
+  /* Form */
+
+  form label.sbs {
+    padding: .4rem 0;
+}
+
+  }
