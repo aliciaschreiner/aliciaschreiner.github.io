@@ -4,13 +4,14 @@ body {
     text-align: center;
     color: #203354;
 }
-
+header {
+    margin-bottom: 25px;
+}
 section {
     background-color: #203354;
     border:.5px solid gray;
     text-align:center;
     color: ivory;
-    
 }
 div {
     display: grid;
