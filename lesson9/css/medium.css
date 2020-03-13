@@ -125,4 +125,29 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 25px;
   }
+
+
+/* Cards */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  width: 100%;
+}
+.col1 {
+  flex: 1;
+  padding: 20px;
+}
+.col2 {
+  flex: 1;
+  padding: 20px;
+}
+.card:nth-child(odd) {
+  flex-direction: row-reverse;
+}
 }

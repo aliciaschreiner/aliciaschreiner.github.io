@@ -92,6 +92,25 @@ nav li a {
   color: #008ee5;
   font-weight: bolder;
 }
+
+.welcome p {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 50px;
+  font-weight: bolder;
+  line-height: 1.5em;
+
+}
+
+.welcome {
+  background: url(../images/homeHero.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  padding: 75px; 
+}
+
 /* Main */
 
 .container {
@@ -279,7 +298,7 @@ article p {
   margin-left: 10px;
 }
 .contactcontainer {
-  background-color: #f0f0f0;
+  background-color:white;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 15px;
@@ -320,6 +339,9 @@ article p {
   grid-column: span 2;
   display: none;
 }
+
+
+
 /* Lazy Load */
 
 picture {
@@ -432,6 +454,38 @@ textarea {
   display: block;
   width: 100%;
   margin-top: 10px;
+}
+
+/* Cards */
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  padding: 20px;
+  background: #013056;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.cards img {
+  width: 100%;
+  box-shadow: 3px 3px 10px #282b40;
+}
+
+.col1 {
+  padding: 20px;
+}
+
+.col2 {
+  padding: 20px;
 }
 
 /* Footer */

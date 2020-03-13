@@ -53,4 +53,23 @@
   form label.sbs {
     padding: 0.4rem 0;
   }
+
+/* Cards */
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 20px;
+    background: #013056;
+}
+.card {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #282b40;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 95%;
+}
 }
