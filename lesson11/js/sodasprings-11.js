@@ -1,4 +1,4 @@
-/* Weather Summary Soda Springs*/
+/* Weather Summary Soda Springs */
 
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=e2c5cf2d76014478c0c017d1d040b23c";
 fetch(apiURL)
