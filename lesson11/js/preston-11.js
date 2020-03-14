@@ -14,7 +14,7 @@ fetch(apiURL)
     document.getElementById('windSpeed').textContent = weatherAPI.wind.speed;   
   });
 
-/* Event from Town Data */
+/* Events from Town Data */
 
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
