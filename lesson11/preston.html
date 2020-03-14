@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weatherday - CIT 230 Weather Site</title>
+    <meta name="author" content="Alicia Schreiner" />
+    <meta name="description" content="CIT 230 Assignment 10" />
+
+    <link rel="stylesheet" href="/lesson11/css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="/lesson6/css/small.css" />
+    <link rel="stylesheet" type="text/css" href="/lesson6/css/medium.css" />
+    <link rel="stylesheet" type="text/css" href="/lesson6/css/large.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <section id="popup" class="hide">
+      <p>
+        <strong>Saturday:</strong> Preston Pancakes in the Park! <br />9:00 a.m.
+        Saturday at the City Park Pavilion.
+      </p>
+    </section>
+    <header>
+      <img
+        src="images/weatherday.png"
+        alt="Weatherday logo image"
+        class="headerlogo"
+      />
+      <section class="head">
+        <h1 class="weatherday">Weatherday</h1>
+        <h3 class="slogan">Be Prepared, Rain or Shine.</h3>
+      </section>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a class="hamburger" href="#">&#9776; Menu</a></li>
+        <li><a href="https://aliciaschreiner.github.io/lesson9/index.html">Home</a></li>
+        <li>
+          <a
+            class="active"
+            href="https://aliciaschreiner.github.io/lesson6/preston-6.html"
+            >Preston</a
+          >
+        </li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="https://aliciaschreiner.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+        <li>
+          <a href="https://aliciaschreiner.github.io/lesson7/gallery-7.html"
+            >Gallery</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <br />
+      <h2>Preston Idaho</h2>
+      <div class="container">
+          <img src="images/prestonHero0.jpeg" alt="Preston Hero Image" />
+        <div class="weather-summary">
+          <h4>Weather Summary</h4>
+          <p>Currently:</p><span> <span id="current"></span></span>
+          <p>High:</p><span><span id="temp"></span>&#8457;</span>
+          <p>Wind Chill:</p> <span><span id="windChill"></span></span>
+          <p>Humidity:</p> <span><span id="humidity"></span>%</span>
+          <p>Wind Speed:</p> <span id="windSpeed"></span> mph</span></div></div>
+        
+      </div>
+      <div class="forecastcontainer">
+        <h3>5 Day Forecast</h3>
+        <table class="forecasttable" style="width:100%">
+          <tr class="day">
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+          </tr>
+          <tr class="dayweather">
+            <td>
+              <img src="images/wi-day-sunny.svg" alt="sunny icon" />
+              <p>65&#8457;</p>
+            </td>
+            <td>
+              <img src="images/wi-day-sunny.svg" alt="sunny icon" />
+              <p>62&#8457;</p>
+            </td>
+            <td>
+              <img src="images/wi-day-cloudy.svg" alt="partly cloudy icon" />
+              <p>59&#8457;</p>
+            </td>
+            <td>
+              <img src="images/wi-cloudy.svg" alt="cloudy icon" />
+              <p>57&#8457;</p>
+            </td>
+            <td>
+              <img src="images/wi-day-rain.svg" alt="rain icon" />
+              <p>52&#8457;</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="articlebox">
+        <article>
+          <img
+            src="/lesson5/images/lightning.jpg"
+            alt="Lightning Image"
+            class="articleimage"
+          />
+          <div>
+            <h2>Article</h2>
+            <p class="author">By Author</p>
+            <p>
+              A storm with thunder and lightning and typically also heavy rain
+              or hail, is called as Thunderstorm. A thunderstorm, also known as
+              an electrical storm, lightning storm, or thundershower, is a storm
+              characterized by the presence of lightning and its acoustic effect
+              on the Earth's atmosphere, known as thunder. Thunderstorms occur
+              in association with a type of cloud known as a cumulonimbus.
+              Thunderstorms are small, intense weather systems that make strong
+              winds, heavy rain, lightning, and thunder. Thunderstorms can
+              happen anywhere with two conditions: the air near the Earth's
+              surface must be warm and moist (with lots of liquid), and the
+              atmosphere must be unstable. A thunderstorm is a rain shower
+              during which you hear thunder. Since thunder comes from lightning,
+              all thunderstorms have lightning.
+            </p>
+          </div>
+        </article>
+      </div>
+      <section class="container eventContainer">
+        <h3>Upcoming Events</h3>
+        <div class="events grids"></div>
+    </section>
+      
+      <div class="contactcontainer">
+        <div class="contact1">
+          <h3>Weatherday</h3>
+          <p>1234 Preston Ave</p>
+          <p>Preston, ID 83263</p>
+          <p>&phone; 208-223-4567</p>
+        </div>
+        <div class="contact2">
+          <a href="#" class="iconlink">
+            <img class="icon" src="images/facebook_icon.png" alt="fb iccon"
+          /></a>
+          <a href="#" class="iconlink">
+            <img class="icon" src="images/twitter_icon.png" alt="twitter icon"
+          /></a>
+          <a href="#" class="iconlink">
+            <img class="icon" src="images/youtube_icon.png" alt="youtube icon"
+          /></a>
+        </div>
+        <img
+          src="images/prestonmap.jpg"
+          alt="Preston Idaho Map"
+          class="prestonmap"
+        />
+      </div>
+    </main>
+    <footer>
+        <div class="footerlinks">
+      <span>&copy; </span>
+      <span> Weatherday | <a href="https://openweathermap.org/">Attribution</a> | Alicia Schreiner</span>
+      <br />
+      <span id="currentdate"></span>
+      </div>
+    </footer>
+
+    <script src="/lesson6/js/preston-6-script.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="/lesson10/js/weatherapi.js"></script>
+    <script src="/lesson10/js/preston-10-script.js"></script>
+  </body>
+</html>

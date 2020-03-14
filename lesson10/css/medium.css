@@ -69,6 +69,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
+  .dayweather td img {
+    max-width: 50%;
+  }
   .author {
     display: none;
   }

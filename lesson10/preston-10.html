@@ -61,30 +61,15 @@
       <br />
       <h2>Preston Idaho</h2>
       <div class="container">
-        <picture>
-          <source
-            media=" (max-width: 500px)"
-            srcset="images/prestonHero01.jpg"
-          />
-          <source
-            media=" (max-width: 700px)"
-            srcset="images/prestonHero02.jpg"
-          />
-          <img src="images/prestonHero03.jpg" alt="Preston Hero Image" />
-        </picture>
+          <img src="images/prestonHero0.jpeg" alt="Preston Hero Image" />
         <div class="weather-summary">
           <h4>Weather Summary</h4>
-          <p>Currently:</p>
-          <span id="current"> Partly Cloudy</span>
-          <p>Temperature:</p>
-          <span id="temp">59&#8457;</span>
-          <p>Wind Chill:</p>
-          <span id="windChill">52&#8457;</span>
-          <p>Humidity:</p>
-          <span id="humidity">48%</span>
-          <p>Wind Speed:</p>
-          <span id="windSpeed">7 mph</span>
-        </div>
+          <p>Currently:</p><span> <span id="current"></span></span>
+          <p>High:</p><span><span id="temp"></span>&#8457;</span>
+          <p>Wind Chill:</p> <span><span id="windChill"></span></span>
+          <p>Humidity:</p> <span><span id="humidity"></span>%</span>
+          <p>Wind Speed:</p> <span id="windSpeed"></span> mph</span></div></div>
+        
       </div>
       <div class="forecastcontainer">
         <h3>5 Day Forecast</h3>
@@ -174,13 +159,17 @@
       </div>
     </main>
     <footer>
+        <div class="footerlinks">
       <span>&copy; </span>
-      <span> Weatherday | Attribution | Alicia Schreiner</span>
+      <span> Weatherday | <a href="https://openweathermap.org/">Attribution</a> | Alicia Schreiner</span>
       <br />
       <span id="currentdate"></span>
+      </div>
     </footer>
 
     <script src="/lesson6/js/preston-6-script.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="/lesson10/js/weatherapi.js"></script>
+    <script src="/lesson10/js/preston-10.js"></script>
   </body>
 </html>

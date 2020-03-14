@@ -338,3 +338,11 @@ footer {
   word-spacing: 0.25em;
   line-height: 20px;
 }
+
+.footerlinks a:link {
+  color: white;
+}
+
+.footerlinks a:visited {
+  color: white;
+}
