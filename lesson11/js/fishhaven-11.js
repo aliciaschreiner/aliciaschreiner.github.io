@@ -1,3 +1,21 @@
+/* Weather Summary Fish Haven */
+
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=e2c5cf2d76014478c0c017d1d040b23c";
+fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+
+    const weatherAPI = jsObject;
+ 
+    document.getElementById('current').textContent = weatherAPI.weather[0].main;
+    document.getElementById('temp').textContent = weatherAPI.main.temp_max.toFixed(1);
+    document.getElementById('humidity').textContent = weatherAPI.main.humidity;
+    document.getElementById('windSpeed').textContent = weatherAPI.wind.speed;   
+  });
+
+/* Events from Town Data */
+
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(requestURL)
