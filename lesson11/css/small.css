@@ -113,19 +113,8 @@ nav li a {
 
 /* Main */
 
-.container {
-  position: relative;
-  margin-bottom: 0.4em;
-}
-
-.container img {
-  margin: auto;
-  max-width: 100%;
-  margin-bottom: 1rem;
-}
-
 main {
-  max-width: 960px;
+  max-width: 900px;
   margin: auto;
   padding: 10px;
 }
@@ -135,6 +124,16 @@ main h2 {
 main p,
 main li {
   line-height: 1.1em;
+}
+.container {
+  position: relative;
+  margin-bottom: 0.4em;
+}
+
+.container img {
+  margin: auto;
+  max-width: 100%;
+  margin-bottom: 1rem;
 }
 .author {
   font-size: 14px;
@@ -346,23 +345,7 @@ article p {
 
 
 
-/* Lazy Load */
 
-picture {
-  display: block;
-  margin: 1rem;
-}
-
-main img {
-  min-width: 300px;
-  min-height: 400px;
-  filter: blur(0em);
-  transition: filter 0.5s;
-}
-
-main img[data-src] {
-  filter: blur(0.2em);
-}
 
 /* Gallery */
 

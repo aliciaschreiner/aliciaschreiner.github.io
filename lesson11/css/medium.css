@@ -24,7 +24,9 @@
   .navigation li:first-child {
     display: none;
   }
-
+main {
+  max-width: 900px;
+}
   .container {
     position: relative;
   }
