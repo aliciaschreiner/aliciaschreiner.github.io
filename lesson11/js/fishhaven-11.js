@@ -1,6 +1,6 @@
 /* Weather Summary Fish Haven */
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=e2c5cf2d76014478c0c017d1d040b23c";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=558010&units=imperial&APPID=e2c5cf2d76014478c0c017d1d040b23c";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
