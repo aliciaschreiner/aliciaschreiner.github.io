@@ -125,8 +125,8 @@ nav li a {
 }
 
 main {
-  max-width: 960px;
-  margin: auto;
+  max-width: 900px;
+  margin: 0 auto;
   padding: 10px;
 }
 main h2 {
@@ -468,6 +468,7 @@ textarea {
   padding: 20px;
   background: #013056;
   max-height: 800px;
+
 }
 
 .card {
@@ -478,21 +479,22 @@ textarea {
   max-width: 600px;
   display: grid;
   grid-template-columns: 1fr;
+
 }
 
 .cards img {
   box-shadow: 3px 3px 10px #282b40;
   width: 100%
-
 }
 
 .col1 {
   padding: 20px;
+
 }
 
 .col2 {
   padding: 20px;
-  
+
 }
 
 /* Footer */
