@@ -106,6 +106,7 @@ nav li a {
   margin: auto;
   max-width: 100%;
   margin-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 main {
@@ -231,6 +232,7 @@ img.colorscheme {
   margin-top: 10px;
   margin-bottom: 10px;
   display: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .forecastcontainer h3 {
@@ -243,7 +245,7 @@ img.colorscheme {
   text-align: center;
   padding-top: 15px;
   padding-bottom: 10px;
-  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .day {
   font-size: 1.2em;
@@ -264,6 +266,7 @@ article {
   display: flex;
   flex-direction: column-reverse;
   margin: 0 auto;
+  padding-bottom: 15px;
 }
 .articleimage {
   display: block;
@@ -293,6 +296,7 @@ article p {
   padding-bottom: 25px;
   position: relative;
   line-height: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .events h4 {
@@ -302,6 +306,7 @@ article p {
   margin: auto;
   padding: 20px;
   border: 1px solid lightgray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .contactcontainer {
   background-color: #e6f3f7;
@@ -317,6 +322,7 @@ article p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contact1 {
@@ -346,6 +352,7 @@ article p {
   grid-column: span 2;
   display: none;
   border: 1 solid lightgray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 footer {
   background-color: #013056;
