@@ -35,7 +35,7 @@ fetch(requestURL)
 
 			for (let x = 0; x < town.events.length; x++){
 
-				const images = ["event1.jpg", "event2.jpg", "event3.jpg"]
+				
 
 				let div = document.createElement('div');
 				let event = document.createElement('p');
