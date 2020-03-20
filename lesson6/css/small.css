@@ -345,6 +345,7 @@ article p {
   max-width: 100%;
   grid-column: span 2;
   display: none;
+  border: 1 solid lightgray;
 }
 footer {
   background-color: #013056;
