@@ -275,6 +275,7 @@ article {
 
 .articlebox {
   position: relative;
+  padding-bottom: 30px;
 }
 article h2 {
   text-align: left;
@@ -285,8 +286,26 @@ article p {
   padding-right: 20px;
   margin-left: 10px;;
 }
+
+.events {
+  background-color: #e6f3f7;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  position: relative;
+  line-height: 2em;
+}
+
+.events h4 {
+  color: #013056;
+  background-color: white;
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid lightgray;
+}
 .contactcontainer {
   background-color: #e6f3f7;
+  color: #013056;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 15px;

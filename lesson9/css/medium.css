@@ -69,9 +69,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  .author {
-    display: none;
-  }
+  
   article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
