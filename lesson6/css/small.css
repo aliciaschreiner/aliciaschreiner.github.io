@@ -31,7 +31,6 @@ header {
   justify-content: center;
   margin-top: -20px;
   margin-bottom: -10px;
-
 }
 .head {
   display: flex;
@@ -93,7 +92,6 @@ nav li a {
 .navigation .active {
   color: #008ee5;
   font-weight: bolder;
-
 }
 /* Main */
 
@@ -102,7 +100,7 @@ nav li a {
   margin-bottom: 0.4em;
 }
 
-.container img{
+.container img {
   margin: auto;
   max-width: 100%;
   margin-bottom: 1rem;
@@ -176,33 +174,30 @@ h4 {
   font-size: 1.25rem;
 }
 .weather-summary span {
-  text-align:right;
-  color:  white;
+  text-align: right;
+  color: white;
   font-size: 1rem;
   margin: 0;
 }
 #current {
-  grid-row:2;
+  grid-row: 2;
   grid-column: 2;
-  
 }
 #temp {
-  grid-row:3;
+  grid-row: 3;
   grid-column: 2;
 }
 #chill {
-  grid-row:4;
-  grid-column:2;
-
+  grid-row: 4;
+  grid-column: 2;
 }
 #humidity {
-  grid-row:5;
-  grid-column:2;
-
+  grid-row: 5;
+  grid-column: 2;
 }
 #wind {
-  grid-row:6;
-  grid-column:2;
+  grid-row: 6;
+  grid-column: 2;
 }
 
 .container {
@@ -287,7 +282,7 @@ article h2 {
 article p {
   line-height: 1.3em;
   padding-right: 20px;
-  margin-left: 10px;;
+  margin-left: 10px;
 }
 
 .events {
@@ -297,6 +292,10 @@ article p {
   position: relative;
   line-height: 2em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.events h3 {
+  font-size: 1.5em;
 }
 
 .events h4 {
@@ -333,7 +332,7 @@ article p {
   text-align: left;
 }
 .contact1 p {
-  line-height: .5em;
+  line-height: 0.5em;
 }
 .contact2 {
   grid-column: 2;
