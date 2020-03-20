@@ -132,11 +132,17 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
+  max-height: 500px;
 }
 .card {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
+  width: 100%;
+
+}
+.card img {
+  max-height: 200px;
   width: 100%;
 }
 .col1 {

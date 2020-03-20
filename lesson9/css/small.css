@@ -276,6 +276,7 @@ article {
   display: flex;
   flex-direction: column-reverse;
   margin: 0 auto;
+  padding-bottom: 30px;
 }
 .articleimage {
   display: block;
@@ -283,6 +284,8 @@ article {
   margin-right: auto;
   max-width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 200px;
+
 }
 
 .articlebox {
@@ -464,20 +467,23 @@ textarea {
   gap: 15px;
   padding: 20px;
   background: #013056;
+  max-height: 800px;
 }
 
 .card {
   background-color: white;
   padding: 10px;
   text-align: center;
-  
+  max-height: 700px;
+  max-width: 600px;
   display: grid;
   grid-template-columns: 1fr;
 }
 
 .cards img {
-  width: 100%;
   box-shadow: 3px 3px 10px #282b40;
+  width: 100%
+
 }
 
 .col1 {
@@ -486,6 +492,7 @@ textarea {
 
 .col2 {
   padding: 20px;
+  
 }
 
 /* Footer */
