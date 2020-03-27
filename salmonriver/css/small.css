@@ -5,12 +5,14 @@ body {
 }
 header {
     min-height: 300px;
-    padding-top: 20px;
+    padding-top: 25px;
 }
-header img {
+
+.headerlogo {
     text-align: center;
     margin: 0px auto;
     display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /****** Social Icons *******/
 
@@ -65,6 +67,8 @@ nav ul {
     font-weight: bolder;
   }
 
+  
+
 
 
 
@@ -76,7 +80,7 @@ nav ul {
     font-size: small;
     margin-top: 30px;
     padding-top: 15px;
-    padding-bottom: 8px;
+    padding-bottom: 15px;
     word-spacing: 0.25em;
     line-height: 20px;
   }
