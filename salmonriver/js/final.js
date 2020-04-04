@@ -54,14 +54,14 @@ fetch(requestURL)
   .then(function (jsonObject) {
     
     const riverguides = jsonObject['riverguides'];
-   for (let i = 0; i < riverguides.length; i++ ) {
+    for (let i = 0; i < riverguides.length; i++ ) {
     let card = document.createElement('section');
-      let h2 = document.createElement('h2');
-      let certification = document.createElement('p');
-	  let experience = document.createElement('p');
-	  let email = document.createElement('p');
-	  let bio = document.createElement('p');
-      let image = document.createElement('img');
+    let h2 = document.createElement('h2');
+    let certification = document.createElement('p');
+	let experience = document.createElement('p');
+	let email = document.createElement('p');
+	let bio = document.createElement('p');
+    let image = document.createElement('img');
 
 
 

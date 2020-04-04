@@ -47,7 +47,73 @@
     </nav>
   
     </div>
-    <main></main>
+    <main>
+      <table style="width:100%">
+        <thead>
+          <tr>
+            <th colspan="3"><strong>Salmon River Adventures</strong></th>
+          </tr>
+          <tr>
+            <th class="darkbox">Full Day Trip</th>
+            <th class="darkbox">Half Day Trip</th>
+            <th class="darkbox">3 Day Trip</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>8am-6pm</td>
+            <td>Intermediate</td>
+            <td>$350</td>
+          </tr>
+          <tr>
+            <td>8am-12pm / 1pm-5pm</td>
+            <td>Beginner</td>
+            <td>$225</td>
+          </tr>
+          <tr>
+            <td>8am start daily</td>
+            <td>Advanced</td>
+            <td>$995</td>
+          </tr>
+        </tbody>
+  
+        <tfoot>
+          <tr>
+            <td colspan="3">*subject to weather conditions</td>
+          </tr>
+        </tfoot>
+      </table>
+      <h1>Registration</h1>
+        
+        <section>
+        <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>User Information</legend>
+            <label class="top">Full Name*<input type="text" name="fname" pattern="[A-Za-z ].{5,}" title="Minimum 5 letters" required></label>
+            <label class="top">Email*<input type="email" name="email" placeholder="name@email.com"></label>
+            <label class="top">Phone Number*<input type="tel" name="phone" required></label>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Adventure</legend>
+                <label class="top">Start Date<input type="date" name="startDate"></label>
+                <label class="top">Adventure Type<input list="adventureType" name="adventureType">
+                    <datalist id="adventureType">
+                        <option value="Full Day Adventure">Full Day Adventure</option>
+                        <option value="Half Day Adventure">Half Day Adventure</option>
+                        <option value="3 Day Adventure">3 Day Adventure</option>
+                    </datalist>
+                </label>
+              
+</fieldset>
+<fieldset>
+    <legend>Questions or Comments</legend>
+<textarea></textarea></label>
+                    </fieldset>       
+                        <input type="submit" name="submit" class="submitButton" value="Register Now">
+                </form>
+</section>
+    </main>
 
     <footer>
         <div>
