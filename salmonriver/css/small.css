@@ -276,7 +276,7 @@ h2 {
 
  legend {
     margin: 0 1rem;
-    padding 0 0.5rem;
+    padding  0.5rem;
     font-weight: bolder;
     font-size: 1.5rem;
     color: #1a4d4b;
@@ -362,7 +362,7 @@ iframe {
 
  .contactform legend {
     margin: 0 1rem;
-    padding 0 0.5rem;
+    padding  0.5rem;
     font-weight: bolder;
     font-size: 1.5rem;
     color: #1a4d4b;
