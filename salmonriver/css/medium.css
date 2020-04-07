@@ -15,4 +15,31 @@
   .navigation li:first-child {
     display: none;
   }
+
+  /***** Reservations Page ******/
+
+      /* Table */
+
+      table {
+        margin-top: 50px;
+        max-width: 800px; 
+        margin-bottom: 50px;
+      }
+
+      table,
+  th,
+  td {
+    padding: 15px;
+    font-size: 1.15em;
+  }
+
+  /* Contact Page */
+
+  iframe {
+    margin: auto;
+    float: left;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+
 }
