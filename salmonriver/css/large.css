@@ -26,6 +26,12 @@
 .testimonials {
   grid-template-columns: 1fr 1fr 1fr;
  }
+
+ /***** River Guides *****/
+
+ .cards {
+   grid-template-columns: 1fr 1fr 1fr;
+ }
   /***** Adventures ****/
 
   .adventures {

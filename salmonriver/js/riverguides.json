@@ -2,12 +2,13 @@
     "riverguides": [
       {
         "name": "Conner",
+        "imageurl": "https://aliciaschreiner.github.io/salmonriver/images/guide01.jpg",
         "lastname": "Neal",
         "certification": "Level 4",
         "experience": "12",
         "email": "whitewaterconner@gmail.com",
-        "bio": "Conner is from just outside Denver, Colorado. He grew up in the outdoors and after one summer of rafting was hooked. He's been on the water for over 15 years now and loves every minute of it.",
-        "imageurl": "https://aliciaschreiner.github.io/salmonriver/images/guide01.jpg"
+        "bio": "Conner is from just outside Denver, Colorado. He grew up in the outdoors and after one summer of rafting was hooked. He's been on the water for over 15 years now and loves every minute of it."
+        
       },
       {
         "name": "Maddie",
