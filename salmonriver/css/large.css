@@ -16,6 +16,16 @@
     display: none;
   }
 
+/***** Homepage *****/
+
+.welcome {
+  font-size: 1.5em;
+  max-width: 900px;
+}
+
+.testimonials {
+  grid-template-columns: 1fr 1fr 1fr;
+ }
   /***** Adventures ****/
 
   .adventures {

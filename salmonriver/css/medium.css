@@ -19,12 +19,25 @@
 
 /****** Homepage ******/
 
+.welcome {
+  font-size: 1.25em;
+  max-width: 700px;
+}
 
+.welcome h1 {
+  font-size: 3em;
+}
 
+.welcome h2 {
+  font-size: 2em;
+}
 
-
-
-
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+ }
+ 
 /****** Adventures Page ******/
 
 .adventures {

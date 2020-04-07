@@ -81,30 +81,19 @@ h2 {
 }    
   /***** Homepage Content *****/
 
+.homeimg {
+  max-width: 100%;
+}
 
 .welcome {
-  max-width: 300px;
-
-  background-color: #9eb768;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #1a4d4b;
+  max-width: 500px;
+  text-align: center;
+  padding: 15px;
   margin: auto;
 }
-
-.welcometitle  {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 4rem;
-  text-align: center;
-  color: white;
-  text-shadow: 2px 2px darkslategray;
-}
-
-.homeimage01 {
-  padding: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 
 .weather-summary {
   padding-bottom: 20px;
@@ -408,5 +397,16 @@ label.sbs,
     padding-bottom: 15px;
     word-spacing: 0.25em;
     line-height: 20px;
-  
+  }
+
+  footer a:link {
+    color: #9eb768;
+  }
+
+  footer a:visited {
+    color: #147c84;
+  }
+
+  footer a:hover {
+    color: white;
   }

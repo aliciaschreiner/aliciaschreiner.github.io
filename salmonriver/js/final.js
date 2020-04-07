@@ -7,14 +7,19 @@ function toggleMenu() {
 	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 };
 
-/* Weather Summary */
 
-/* Weather Summary Riggins */
+
+
 
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=4092267&units=imperial&APPID=e2c5cf2d76014478c0c017d1d040b23c";
 fetch(apiURL)
-  .then((response) => response.json())
-  .then((jsObject) => {
+.then(function (response) {
+    return response.json();
+  })
+  
+  //.then((response) => response.json())
+  //.then((jsObject) => {
+	.then(function (jsonObject) {
     console.log(jsObject);
 
     const weatherAPI = jsObject;
@@ -25,7 +30,7 @@ fetch(apiURL)
     document.getElementById('windSpeed').textContent = weatherAPI.wind.speed;   
   });
 
-/* Wind Chill */
+
 
 let t = document.getElementById('temp').innerHTML;
 let s = document.getElementById('windSpeed').innerHTML;
@@ -53,7 +58,8 @@ fetch(requestURL)
   
   .then(function (jsonObject) {
     
-    const riverguides = jsonObject['riverguides'];
+	const riverguides = jsonObject['riverguides']; 
+
     for (let i = 0; i < riverguides.length; i++ ) {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
@@ -81,6 +87,6 @@ card.appendChild(email);
 card.appendChild(bio);
 card.appendChild(image);
 
-document.querySelector('div.cards').appendChild(card);
-}
+document.querySelector('div.cards').appendChild(card); 
+	}
 });
