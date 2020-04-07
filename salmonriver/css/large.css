@@ -15,5 +15,11 @@
   .navigation li:first-child {
     display: none;
   }
+
+  /***** Adventures ****/
+
+  .adventures {
+    grid-template-columns: 1fr 1fr 1fr;
+   }
 }
 

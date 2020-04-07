@@ -16,17 +16,36 @@
     display: none;
   }
 
+
+/****** Homepage ******/
+
+
+
+
+
+
+
+/****** Adventures Page ******/
+
+.adventures {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap: 20px;
+}
+
+
+
   /***** Reservations Page ******/
 
       /* Table */
 
-      table {
-        margin-top: 50px;
-        max-width: 800px; 
-        margin-bottom: 50px;
+  table {
+    margin-top: 50px;
+    max-width: 800px; 
+    margin-bottom: 50px;
       }
 
-      table,
+  table,
   th,
   td {
     padding: 15px;

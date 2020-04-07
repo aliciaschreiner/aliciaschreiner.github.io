@@ -80,32 +80,97 @@ h2 {
  font-family: 'Bebas Neue', cursive;
 }    
   /***** Homepage Content *****/
-  
-  .welcome {
-    background: url(../images/whitewater01.jpg) center center no-repeat;
-    background-size: cover;
-    width: 100%;
-    position: relative;
-    padding: 200px; 
-   
-  }
 
-.welcometitle {
+
+.welcome {
+  max-width: 300px;
+
+  background-color: #9eb768;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+}
+
+.welcometitle  {
   font-family: 'Bebas Neue', cursive;
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
-  background-color: #1a4d4b;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
   color: white;
-  max-width: 200px;
-  align-content: center;
-  position: relative;
+  text-shadow: 2px 2px darkslategray;
+}
+
+.homeimage01 {
+  padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+.weather-summary {
+  padding-bottom: 20px;
+  line-height: 1.5em;
+  font-size: 1em;
+  padding-top: 5px;
+  text-align: center;
+  background-color: #147c84;
+  color: white;
+  margin-bottom: -30px;
+}
+
+
+/****** Adventures Page ******/
+
+.book {
+  background-color: #1a4d4b;
+  max-width: 200px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.book a:link {
+  color: #9eb768;
+  text-decoration: none;
+}
+
+.book a:visited {
+  color: #9eb768;
+}
+
+.book a:hover {
+  color: #9eb768
+}
+
+.book a:active {
+  color: white;
+}
+.adventures h1 {
+  text-align: center;
+}
+
+.adventures h2 {
+  text-align: center;
+}
+.adventures p {
+  line-height: 1.5em;
+  padding: 15px;
+}
+
+.adventures img {
+  max-width: 485px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
   /***** Reservations Page ******/
 
@@ -244,7 +309,7 @@ textarea {
     padding-bottom: 50px;
   }
 
-  /* Contact */
+  /***** Contact *****/
 
   .mapcontact h1 {
     text-align: center;
@@ -322,20 +387,16 @@ label.sbs,
   width: 100%;
   margin-top: 10px;
 }
- 
+
+/****** River Guides *****/
+
+.riverguideheader h2 {
+  text-align: center;
+}
+
 /* Footer */
 
-.weather-summary {
-  padding-bottom: 20px;
-  line-height: 1.5em;
-  font-size: 1rem;
-  padding-top: 5px;
-  margin-bottom: -30px;
- text-align: center;
- background-color: #147c84;
-  color: white;
- 
-}
+
 
   footer {
     background-color: #1a4d4b;
@@ -347,4 +408,5 @@ label.sbs,
     padding-bottom: 15px;
     word-spacing: 0.25em;
     line-height: 20px;
+  
   }
