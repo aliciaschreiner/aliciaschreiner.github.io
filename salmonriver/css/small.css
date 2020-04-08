@@ -110,12 +110,22 @@ h2 {
   text-align: center;
   padding: 30px;
   color: #5d7835;
-  background-color: #9eb768;
 }
 
-.testimonials {
-  background-color: #9eb768;
+.testimonials img{
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.testimonials p {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.5em;
+}
+
 /****** Adventures Page ******/
 
 .book {
