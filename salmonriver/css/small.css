@@ -412,10 +412,20 @@ label.sbs,
 
 /****** River Guides *****/
 
-.riverguideheader h2 {
-  text-align: center;
+.riverguidebios h1 {
+  font-size: 4rem;
+  padding: 20px;
 }
 
+.cards h2 {
+  text-align: center;
+  color:#1a4d4b;
+}
+
+.cards {
+  color: #1a4d4b;
+  margin-bottom: -30px;
+}
 /* Footer */
 
 
