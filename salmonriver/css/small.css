@@ -75,7 +75,7 @@ h1 {
   font-family: 'Bebas Neue', cursive;
     }
 h2 {
- color: #5d7835;
+ color: #1a4d4b;
  font-size: 2rem;
  font-family: 'Bebas Neue', cursive;
 }    
@@ -106,7 +106,16 @@ h2 {
   margin-bottom: -30px;
 }
 
+.testheader h1 {
+  text-align: center;
+  padding: 30px;
+  color: #5d7835;
+  background-color: #9eb768;
+}
 
+.testimonials {
+  background-color: #9eb768;
+}
 /****** Adventures Page ******/
 
 .book {
@@ -338,6 +347,11 @@ textarea {
     text-align: center;
   }
 
+  .mapcontact h2 {
+    text-align: center;
+    margin-bottom: -0.25em;
+  }
+
   .mapcontact p {
     color: #1a4d4b;
     font-size: 1.25rem;
@@ -351,6 +365,7 @@ iframe {
   padding-top: 20px;
   max-width: 99%;
   padding-right: 10px;
+  padding-left: 20px;
 }
 
   .contactform fieldset {
@@ -372,9 +387,10 @@ label.sbs,
 .form div {
   display: block;
   padding-top: 0.75rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0.5rem;
   padding-right: 1rem;
+  color: #1a4d4b;
 }
 
 .contactform input {
@@ -424,8 +440,8 @@ label.sbs,
 
 .cards {
   color: #1a4d4b;
-  margin-bottom: -30px;
 }
+
 /* Footer */
 
 

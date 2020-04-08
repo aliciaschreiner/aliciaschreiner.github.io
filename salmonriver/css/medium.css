@@ -71,6 +71,14 @@
 
   /* Contact Page */
 
+  .mapcontact h1 {
+    font-size: 3.5rem;
+  }
+
+  .mapcontact h2 {
+    font-size: 2.5rem;
+  }
+
   iframe {
     margin: auto;
     float: left;
